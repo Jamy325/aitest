@@ -4,7 +4,7 @@
   "description": "coding by chat gpt ai  hello chatgtp",
   "main": "index.js",
   "scripts": {
-    "test": "node app.test.js",
+    "test": "node app.test.js && node piano.test.js",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
@@ -15,5 +15,8 @@
   "type": "module",
   "devDependencies": {
     "vite": "^5.0.0"
+  },
+  "dependencies": {
+    "three": "^0.179.1"
   }
 }
